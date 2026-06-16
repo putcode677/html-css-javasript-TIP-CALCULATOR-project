@@ -82,3 +82,10 @@ input:focus {
   color: #333;
   font-size: 1.1rem;
 }
+.result-row .label {
+  color: #777;
+   font-weight: normal;
+ }
+.result-row .value { 
+    font-weight: bold;
+ }
