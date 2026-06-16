@@ -8,3 +8,12 @@ body {
   justify-content: center;
   padding: 20px;
 }
+.container {
+border-radius: 20px 0px 20px 0px;
+background:linear-gradient(rgb(144, 204, 144),rgb(196, 176, 176),rgb(173, 156, 123),rgb(199, 199, 167),rgb(167, 124, 167));
+
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
