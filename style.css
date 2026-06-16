@@ -69,3 +69,9 @@ input:focus {
   background: #667eea;
   color: #fff;
 }
+.results {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
