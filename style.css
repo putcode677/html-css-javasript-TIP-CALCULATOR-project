@@ -65,3 +65,7 @@ input:focus {
   text-align: center;
   justify-content: center;
 }
+.tip-buttons button.active, .tip-buttons button:hover {
+  background: #667eea;
+  color: #fff;
+}
