@@ -25,3 +25,9 @@ h1 {
 .field {
  margin-bottom: 20px; 
 }
+label { 
+    display: block; 
+    margin-bottom: 6px; 
+    color: #83102d; 
+    font-weight: bold;
+ }
