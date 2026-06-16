@@ -1,0 +1,72 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #1e1e2f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+h1 { color: #fff; margin-bottom: 20px; }
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+button {
+  padding: 12px 24px;
+  background: #4ca1af;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:hover { background: #3d8a97; }
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  max-width: 900px;
+}
+.color-card {
+  width: 150px;
+  height: 180px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.color-card:hover { transform: translateY(-5px); }
+.hex-label {
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 1rem;
+}
+.copied-msg {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #43e97b;
+  color: #1e1e2f;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.copied-msg.show { opacity: 1; }
