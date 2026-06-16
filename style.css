@@ -17,3 +17,8 @@ background:linear-gradient(rgb(144, 204, 144),rgb(196, 176, 176),rgb(173, 156, 1
   max-width: 400px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
+h1 { 
+    text-align: center; 
+    margin-bottom: 20px; 
+    color: #092581; 
+}
