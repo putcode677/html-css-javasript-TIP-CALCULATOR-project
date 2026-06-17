@@ -9,4 +9,9 @@ function setTip(percent, btn) {
 function calculate() {
   const bill = parseFloat(document.getElementById('bill').value) || 0;
    const people = parseInt(document.getElementById('people').value) || 1;
+
+    const tipAmount = bill * (tipPercent / 100);
+  const total = bill + tipAmount;
+  const perPerson = total / people;
+
 }
