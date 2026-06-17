@@ -14,4 +14,9 @@ function calculate() {
   const total = bill + tipAmount;
   const perPerson = total / people;
 
+    document.getElementById('tipAmount').textContent = tipAmount.toFixed(2);
+  document.getElementById('totalAmount').textContent = total.toFixed(2);
+  document.getElementById('perPerson').textContent = perPerson.toFixed(2);
 }
+
+calculate()
