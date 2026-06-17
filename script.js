@@ -8,4 +8,5 @@ function setTip(percent, btn) {
 }
 function calculate() {
   const bill = parseFloat(document.getElementById('bill').value) || 0;
+   const people = parseInt(document.getElementById('people').value) || 1;
 }
