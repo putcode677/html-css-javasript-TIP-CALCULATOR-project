@@ -6,3 +6,6 @@ function setTip(percent, btn) {
   btn.classList.add('active');
   calculate();
 }
+function calculate() {
+  const bill = parseFloat(document.getElementById('bill').value) || 0;
+}
